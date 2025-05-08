@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B04657192DAAA9E500F1AAAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B04657132DAAA9E500F1AAAA /* Preview Assets.xcassets */; };
+		B046571A2DAAA9E500F1AAAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B04657152DAAA9E500F1AAAA /* Assets.xcassets */; };
+		B046571B2DAAA9E500F1AAAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04657162DAAA9E500F1AAAA /* ContentView.swift */; };
+		B046571C2DAAA9E500F1AAAA /* SwiftUI_StudyHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04657172DAAA9E500F1AAAA /* SwiftUI_StudyHubApp.swift */; };
+		B046571F2DAAB4AD00F1AAAA /* Font24_bold.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046571E2DAAB4AD00F1AAAA /* Font24_bold.swift */; };
+		B0B5EF442DCCE414009A81C2 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B5EF432DCCE414009A81C2 /* TextFieldView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B04657022DAAA9CE00F1AAAA /* SwiftUI-StudyHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-StudyHub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04657132DAAA9E500F1AAAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B04657152DAAA9E500F1AAAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B04657162DAAA9E500F1AAAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B04657172DAAA9E500F1AAAA /* SwiftUI_StudyHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_StudyHubApp.swift; sourceTree = "<group>"; };
+		B046571E2DAAB4AD00F1AAAA /* Font24_bold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font24_bold.swift; sourceTree = "<group>"; };
+		B0B5EF432DCCE414009A81C2 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B04657042DAAA9CE00F1AAAA /* SwiftUI-StudyHub */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "SwiftUI-StudyHub";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B04656FF2DAAA9CE00F1AAAA /* Frameworks */ = {
@@ -32,7 +39,7 @@
 		B04656F92DAAA9CE00F1AAAA = {
 			isa = PBXGroup;
 			children = (
-				B04657042DAAA9CE00F1AAAA /* SwiftUI-StudyHub */,
+				B04657182DAAA9E500F1AAAA /* SwiftUI-StudyHub */,
 				B04657032DAAA9CE00F1AAAA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,35 @@
 				B04657022DAAA9CE00F1AAAA /* SwiftUI-StudyHub.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B04657142DAAA9E500F1AAAA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B04657132DAAA9E500F1AAAA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B04657182DAAA9E500F1AAAA /* SwiftUI-StudyHub */ = {
+			isa = PBXGroup;
+			children = (
+				B046571D2DAAB49000F1AAAA /* Font+Modifier */,
+				B04657142DAAA9E500F1AAAA /* Preview Content */,
+				B04657152DAAA9E500F1AAAA /* Assets.xcassets */,
+				B04657162DAAA9E500F1AAAA /* ContentView.swift */,
+				B04657172DAAA9E500F1AAAA /* SwiftUI_StudyHubApp.swift */,
+				B0B5EF432DCCE414009A81C2 /* TextFieldView.swift */,
+			);
+			path = "SwiftUI-StudyHub";
+			sourceTree = "<group>";
+		};
+		B046571D2DAAB49000F1AAAA /* Font+Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				B046571E2DAAB4AD00F1AAAA /* Font24_bold.swift */,
+			);
+			path = "Font+Modifier";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +95,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B04657042DAAA9CE00F1AAAA /* SwiftUI-StudyHub */,
 			);
 			name = "SwiftUI-StudyHub";
 			packageProductDependencies = (
@@ -109,6 +142,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B04657192DAAA9E500F1AAAA /* Preview Assets.xcassets in Resources */,
+				B046571A2DAAA9E500F1AAAA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B046571F2DAAB4AD00F1AAAA /* Font24_bold.swift in Sources */,
+				B046571B2DAAA9E500F1AAAA /* ContentView.swift in Sources */,
+				B0B5EF442DCCE414009A81C2 /* TextFieldView.swift in Sources */,
+				B046571C2DAAA9E500F1AAAA /* SwiftUI_StudyHubApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +299,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,6 +329,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
